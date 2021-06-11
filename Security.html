@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Security</title>
+</head>
+
+<body>
+<font type="times new roman">
+<h1 style="background-color:#40E0D0;">Security</h1>
+
+
+ <ul>
+   <li><a href="index.html">Home</a></li>
+  <li><a href="Memory management.html">Memory management</a></li>
+    <li><a href="Security.html">Security</a></li>
+  <li><a href="User interface.html">User interface</a></li>
+  <li><a href="Comparison of operating systems.html">Comparison of operating systems</a></li>
+  
+  
+<p style="background-color:#B6D0E2;">Security</p>
+
+<h2 style="text-align:justify;direction:ltr;unicode-bidi:embed">
+<span class="mw-headline"><span style="color:windowtext">Security<o:p></o:p></span></span></h2>
+<p style="text-align:justify">A computer being secure depends on a number of 
+technologies working properly. A modern operating system provides access to a 
+number of resources, which are available to software running on the system, and 
+to external devices like networks via the kernel. <o:p></o:p></p>
+<p style="text-align:justify">The operating system must be capable of 
+distinguishing between requests which should be allowed to be processed, and 
+others which should not be processed. While some systems may simply distinguish 
+between "privileged" and "non-privileged", systems commonly have a form of 
+requester <i>identity</i>, such as a user name. To establish identity there may 
+be a process of <i>authentication</i>. Often a username must be quoted, and each 
+username may have a password. Other methods of authentication, such as magnetic 
+cards or biometric data, might be used instead. In some cases, especially 
+connections from the network, resources may be accessed with no authentication 
+at all (such as reading files over a network share). Also covered by the concept 
+of requester <b>identity</b> is <i>authorization</i>; the particular services 
+and resources accessible by the requester once logged into a system are tied to 
+either the requester's user account or to the variously configured groups of 
+users to which the requester belongs. <o:p></o:p></p>
+<p style="text-align:justify">In addition to the allow or disallow model of 
+security, a system with a high level of security also offers auditing options. 
+These would allow tracking of requests for access to resources (such as, "who 
+has been reading this file?"). Internal security, or security from an already 
+running program is only possible if all possibly harmful requests must be 
+carried out through interrupts to the operating system kernel. If programs can 
+directly access hardware and resources, they cannot be secured.
+<o:p></o:p></p>
+<p style="text-align:justify">External security involves a request from outside 
+the computer, such as a login at a connected console or some kind of network 
+connection. External requests are often passed through device drivers to the 
+operating system's kernel, where they can be passed onto applications, or 
+carried out directly. Security of operating systems has long been a concern 
+because of highly sensitive data held on computers, both of a commercial and 
+military nature. The United States
+<span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-fareast-theme-font:major-fareast">Government</span>
+<span style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:major-fareast">Department of 
+Defense</span> (DoD) created the <i>
+<span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-fareast-theme-font:major-fareast">Trusted Computer System Evaluation 
+Criteria</span></i> (TCSEC) which is a standard that sets basic requirements for 
+assessing the effectiveness of security. This became of vital importance to 
+operating system makers, because the TCSEC was used to evaluate, classify and 
+select
+<span style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+major-fareast">trusted operating systems</span> being considered for the 
+processing, storage and retrieval of sensitive or
+<span style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:major-fareast">classified 
+information</span>.
+<o:p></o:p></p>
+<p style="text-align:justify">Network services include offerings such as file 
+sharing, print services, email, web sites, and
+<span style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:major-fareast">file transfer 
+protocols</span> (FTP), most of which can have compromised security. At the 
+front line of security are hardware devices known as
+<span style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:major-fareast">firewalls</span> 
+or intrusion detection/prevention systems. At the operating system level, there 
+are a number of software firewalls available, as well as intrusion 
+detection/prevention systems. Most modern operating systems include a software 
+firewall, which is enabled by default. A software firewall can be configured to 
+allow or deny network traffic to or from a service or application running on the 
+operating system. Therefore, one can install and be running an insecure service, 
+such as Telnet or FTP, and not have to be threatened by a security breach 
+because the firewall would deny all traffic trying to connect to the service on 
+that port. <o:p></o:p></p>
+<p style="text-align:justify">An alternative strategy, and the only
+<span style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:major-fareast">
+sandbox</span> strategy available in systems that do not meet the
+<span style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:major-fareast">Popek and 
+Goldberg virtualization requirements</span>, is where the operating system is 
+not running user programs as native code, but instead either
+<span style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:major-fareast">
+emulates</span> a processor or provides a host for a
+<span style="mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-fareast-theme-font:major-fareast">p-code</span> based system such as Java. <o:p></o:p>
+</p>
+<p style="text-align:justify">Internal security is especially relevant for 
+multi-user systems; it allows each user of the system to have private files that 
+the other users cannot tamper with or read. Internal security is also vital if 
+auditing is to be of any use, since a program can potentially bypass the 
+operating system, inclusive of bypassing auditing. <o:p></o:p></p>
+
+<img src="250px-Ubuntu_19.04_'Disco_Dingo'.png">
+<img src="250px-Virtual_memory.svg.png">
+
+</ul>
+
+</body>
+
+
+</html>
